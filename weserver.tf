@@ -7,6 +7,6 @@ resource "aws_instance" "web01" {
   vpc_security_group_ids = aws_security_group.ssh_allowed.id
   # the Public SSH key
   key_name = "aws_m"
-  
+
 
 }
